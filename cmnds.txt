@@ -1,0 +1,17 @@
+make virtual environment 
+--> python -m venv env
+
+To Enter to the virtual environment 
+--> source env/Scripts/activate
+
+To deactivate 
+--> deactivate
+
+List of packages 
+--> pip freeze
+
+For Migration 
+--> python manage.py migrate
+
+For run server 
+--> python manage.py runserver  
